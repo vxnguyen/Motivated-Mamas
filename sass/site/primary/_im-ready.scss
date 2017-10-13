@@ -1,0 +1,17 @@
+.triangle-banner {
+	background: url("images/ColorTriangleBG.jpg") no-repeat;
+	background-size: cover;
+	padding: 60px 0;
+
+	.header-container {
+		max-width: 350px;
+		margin: 0 auto;
+		padding: 20px;
+		background-color: #FFFFFF;
+		text-align: center;
+
+		h2 {
+			margin-bottom: 0;
+		}
+	}
+}

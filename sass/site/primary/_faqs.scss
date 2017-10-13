@@ -1,0 +1,61 @@
+.faqs-banner {
+	h2 {
+		margin-top: 0;
+	}
+
+	.header-container {
+		width: 200px;
+	}
+}
+
+.faqs {
+	padding: 60px 0;
+	text-align: center;
+
+	.container {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.answer {
+		display: none;
+	}
+
+	.question {
+		cursor: pointer;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	h3 {
+		margin-bottom: 26px;
+		margin-right: 10px;
+	}
+
+	p {
+		margin-top: 0;
+	}
+}
+
+.faqs-arrow {
+	width: 20px;
+	float: right;
+}
+
+.rotate {
+	transform: rotate(90deg);
+}
+
+.answer a {
+	font-weight: 700;
+	color: #222222;
+
+	&:hover {
+		color: #222222;
+	}
+
+	&:visited {
+		color: #222222
+	}
+}

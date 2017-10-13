@@ -1,0 +1,26 @@
+.about-us {
+	padding: 60px 0;
+
+	.flexbox-container {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+		margin-left: -50px;
+
+		> div {
+			max-width: 500px;
+			background-color: $color__about-us-box-bg;
+			padding: 40px;
+			border-radius: 10px;
+			margin-left: 50px;
+		}
+
+		@media screen and (max-width: 62.5em) {
+			flex-wrap: wrap;
+
+			> div:first-child {
+				margin-bottom: 40px;
+			}
+		}
+	}
+}

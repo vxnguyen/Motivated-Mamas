@@ -1,0 +1,55 @@
+.enroll-button-section {
+	padding: 60px 0;
+	text-align: center;
+	background-color: $color__enroll-button-section-bg;
+}
+
+.enroll-image {
+	padding: 0;
+	height: 300px;
+	background: url("images/Enroll_Image1.jpg") no-repeat center;
+	background-size: cover;
+
+	.inner {
+		position: relative;
+		padding: {
+			top: 60px;
+			bottom: 60px;
+		}
+	}
+
+	.opacity-layer {
+		background-color: rgba(0, 0, 0, .3);
+		width: 100%;
+		height: 100%;
+	}
+
+	.enroll-button-container {
+		margin-top: 40px;
+	}
+}
+
+.enroll-image2 {
+	padding: 0;
+	height: 300px;
+	background: url("images/Enroll_Image2.jpg") no-repeat center top;
+	background-size: cover;
+
+	.inner {
+		position: relative;
+		padding: {
+			top: 60px;
+			bottom: 60px;
+		}
+	}
+
+	.opacity-layer {
+		background-color: rgba(0, 0, 0, .3);
+		width: 100%;
+		height: 100%;
+	}
+
+	.enroll-button-container {
+		margin-top: 40px;
+	}
+}

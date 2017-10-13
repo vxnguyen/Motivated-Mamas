@@ -1,0 +1,59 @@
+.how-and-why {
+	padding: 60px 0;
+
+	.flexbox-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		@media screen and (max-width: 60em) {
+			flex-wrap: wrap;
+		}
+	}
+
+	.bullets ul {
+		list-style-type: none;
+		margin: 0;
+
+		@media screen and (max-width: 56.25em) {
+			margin-left: 0;
+			padding-right: 30px;
+		}
+
+		li {
+			position: relative;
+			margin-bottom: 20px;
+
+			&::before {
+				content: "";
+				background: url("images/HeartBulletBlue.png") no-repeat;
+				background-size: contain;
+				width: 25px;
+				height: 25px;
+				position: absolute;
+				top: 1px;
+				left: -30px;
+			}
+		}
+	}
+
+	.image {
+		max-width: 380px;
+		margin-left: 100px;
+	}
+
+		@media screen and (max-width: 60em) {
+		h2	{
+			text-align: center;
+		}	
+		
+		.bullets {
+			max-width: 600px;
+			text-align: center;
+		}
+
+		.image {
+			margin: 40px 0 0 0;
+		}
+	}
+}

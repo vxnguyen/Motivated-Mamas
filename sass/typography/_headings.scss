@@ -1,0 +1,62 @@
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
+.landing h1 {
+	font-family: $font__site-title;
+  	color: $color__landing-font;
+  	font-weight: 100;
+  	margin: 0;
+  	@include font-size(2);
+  	line-height: 1.25;
+
+  	@media (min-width: 43.75em) {
+		@include font-size(2.5);
+		line-height: 1.125;
+	}
+
+	@media (min-width: 56.25em) {
+		@include font-size(3);
+		line-height: 1.05;
+	}
+}
+
+.landing .big-display {
+	color: $color__landing-font;
+	font-family: $font__landing-big-display;
+	@include font-size(1.1);
+  	line-height: 1.11111111;
+
+  	@media (min-width: 43.75em) {
+  		@include font-size(1.125);
+		line-height: 1.22222222;
+	}
+}
+
+h2 {
+	@include font-size(1.625);
+	line-height: 1.15384615;
+	font-family: $font__header;
+	font-weight: 400;
+
+	@media (min-width: 43.75em) {
+		@include font-size(2);
+	    line-height: 1.25;
+	}
+
+	@media (min-width: 56.25em) {
+		@include font-size(2.25);
+   		line-height: 1.25;
+	}
+
+}
+
+.group-for-you h2,
+.how-and-why h2 {
+	color: $color__group-for-you-header;
+}
+
+.not-for-everybody h3 {
+	font-family: $font__header;
+	font-weight: 100;
+}

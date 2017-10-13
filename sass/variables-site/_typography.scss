@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'BlackAndWhite';
+  src: url('fonts/black_and_white.otf');
+ }
+
+ @font-face {
+  font-family: 'GoBold';
+  src: url('fonts/gobold_bold.otf');
+ }
+
+  @font-face {
+  font-family: 'CenturyGothic';
+  src: url('fonts/century_gothic.otf');
+ }
+
+$font__main: "open-sans",sans-serif;
+$font__navigation: "open-sans",sans-serif;
+$font__site-title: "BlackAndWhite", sans-serif;
+$font__landing-big-display: "open-sans",sans-serif;
+$font__identity-bold: "GoBold", sans-serif;
+$font__header: "GoBold", sans-serif;
+$font__faqs-button: "GoBold", sans-serif;
+$font__enroll-button: "GoBold", sans-serif;
+$font__learn-more-about-us-button: "GoBold", sans-serif;
+$font__5-steps-box-font: "GoBold", sans-serif;
+$font__money-back-header: "CenturyGothic", sans-serif;
+$font__about-us-header: "GoBold", sans-serif;
+$font__payment-header: "GoBold", sans-serif;
+
+
+
+
+
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;

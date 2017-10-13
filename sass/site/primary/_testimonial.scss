@@ -1,0 +1,36 @@
+.testimonial {
+	padding: 60px 0;
+	background-color: $color__testimonial-bg;
+	color: $color__testimonial-font;
+
+	.flexbox-container {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.image {
+			max-width: 200px;
+			margin-right: 100px;
+		}
+
+		.content {
+			max-width: 600px;
+		}
+
+		@media screen and (max-width: 48.125em) {
+			flex-wrap: wrap;
+
+			.image {
+				margin: 0 0 40px 0;
+			}
+
+			.content {
+				text-align: center;
+			}
+		}
+	}
+}
+
+.testimonial-3 {
+	background-color: $color__testimonial-bg-3;
+}

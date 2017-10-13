@@ -1,0 +1,61 @@
+.payment {
+	padding: 60px 0;
+	text-align: center;
+
+	.content {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.flexbox-container {
+		display: flex;
+		justify-content: center;
+		margin: {
+			top: 60px;
+			bottom: 60px;
+		}
+
+		> div {
+			background-color: $color__payment-box-bg;
+			border-radius: 15px;
+			width: 300px;
+			padding: 20px;
+
+			&:first-child {
+				margin-right: 50px;
+			}
+		}
+
+		@media screen and (max-width: 37.5em) {
+			flex-wrap: wrap;
+
+			> div:first-child {
+				margin-right: 0;
+				margin-bottom: 50px;
+			}
+		}
+	}
+}
+
+.direct-stripe-button {
+	@include font-size(1.125);
+}
+
+.direct-stripe-button:hover {
+	color: #FFFFFF;
+	border: 1px solid #FFFFFF;
+}
+
+.page-id-83 {	
+	.site-content {
+		height: 100vh;
+	}
+
+	.entry-header {
+		text-align: center;
+		padding-top: 60px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+

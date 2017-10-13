@@ -1,0 +1,464 @@
+a {
+	color: $color__link;
+
+	&:visited {
+		color: $color__link-visited;
+	}
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__link-hover;
+	}
+	&:focus {
+		outline: thin dotted;
+	}
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+// To be deleted after all link styles have been applied
+//
+//
+//
+
+
+
+
+
+.main-navigation a {
+	color: $color__font-nav;
+
+	&:visited {
+		color: $color__font-nav-visited;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__font-nav-hover;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}
+}
+
+.main-navigation .button a {
+	color: $color__button-nav-font;
+
+	&:visited {
+		color: $color__button-nav-font;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__button-nav-font;
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}	
+}
+
+.enroll-button-container {
+	display: inline-block;
+	padding: 10px 20px 30px 20px;
+	border: 2px solid $color__enroll-button-section-link;
+	position: relative;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $color__enroll-button-bg-hover;
+		transition: background-color .3s;
+	}
+
+	a {
+		color: $color__enroll-button-section-link;
+		text-decoration: none;
+
+			&:visited {
+			color: $color__enroll-button-section-link;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__enroll-button-section-link;
+		}
+
+		&:focus {
+			outline: thin dotted;
+		}
+
+		&:hover,
+		&:active {
+			outline: 0;
+		}	
+
+		&::after {
+			content: "";
+			background: url("images/HeaderFlourishBlack.png") no-repeat;
+			background-size: contain;
+			position: absolute;
+			bottom: 6px;
+			left: 50%;
+			width: 300px;
+			margin-left: -150px;
+			height: 15px;
+
+			@media screen and (max-width: 26.875em) {
+				width: 200px;
+				margin-left: -100px;
+			}
+		}
+	}
+}
+
+.enroll-image .enroll-button-container {
+	display: inline-block;
+	padding: 10px 20px 30px 20px;
+	border: 2px solid $color__enroll-image-font;
+	position: relative;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $color__enroll-image-bg-hover;
+		transition: background-color .3s;
+	}
+
+	a {
+		color: $color__enroll-image-font;
+		text-decoration: none;
+
+			&:visited {
+			color: $color__enroll-image-font
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__enroll-image-font;
+		}
+
+		&:focus {
+			outline: thin dotted;
+		}
+
+		&:hover,
+		&:active {
+			outline: 0;
+		}	
+
+		&::after {
+			content: "";
+			background: url("images/HeaderFlourishWhite.png") no-repeat;
+			background-size: contain;
+			position: absolute;
+			bottom: 6px;
+			left: 50%;
+			width: 250px;
+			margin-left: -125px;
+			height: 15px;
+
+			@media screen and (max-width: 26.875em) {
+				width: 200px;
+				margin-left: -100px;
+			}
+		}
+	}
+}
+
+.enroll-image2 .enroll-button-container {
+	display: inline-block;
+	padding: 10px 20px 30px 20px;
+	border: 2px solid $color__enroll-image-font;
+	position: relative;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $color__enroll-image-bg-hover;
+		transition: background-color .3s;
+	}
+
+	a {
+		color: $color__enroll-image-font;
+		text-decoration: none;
+
+			&:visited {
+			color: $color__enroll-image-font
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__enroll-image-font;
+		}
+
+		&:focus {
+			outline: thin dotted;
+		}
+
+		&:hover,
+		&:active {
+			outline: 0;
+		}	
+
+		&::after {
+			content: "";
+			background: url("images/HeaderFlourishWhite.png") no-repeat;
+			background-size: contain;
+			position: absolute;
+			bottom: 6px;
+			left: 50%;
+			width: 250px;
+			margin-left: -125px;
+			height: 15px;
+
+			@media screen and (max-width: 26.875em) {
+				width: 200px;
+				margin-left: -100px;
+			}
+		}
+	}
+}
+
+
+.learn-more-about-us {
+	border: 2px solid $color__learn-more-about-us-link;
+	display: block;
+	text-align: center;
+	max-width: 350px;
+	margin: 40px auto 0 auto;
+	padding: 5px 20px;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $color__learn-more-about-us-link-bg-hover;
+		border: 2px solid $color__learn-more-about-us-link-bg-hover;
+		transition: background-color .3s;
+
+		a {
+			color: $color__learn-more-about-us-link-hover;
+		}
+	}
+
+	a {
+		color: $color__learn-more-about-us-link;
+		text-decoration: none;
+
+		&:visited {
+			color: $color__learn-more-about-us-link;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__learn-more-about-us-link-hover;
+		}
+
+		&:focus {
+			outline: thin dotted;
+		}
+
+		&:hover,
+		&:active {
+			outline: 0;
+		}	
+	}
+}
+
+.faqs-button-container {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px 30px 20px;
+	border: 2px solid $color__ask-yourself-font;
+	position: relative;
+	width: 250px;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $color__faqs-button-hover;
+		transition: background-color .3s;
+	}
+
+	a {
+		color: $color__ask-yourself-font;
+		text-decoration: none;
+
+			&:visited {
+			color: $color__ask-yourself-font;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__ask-yourself-font;
+		}
+
+		&:focus {
+			outline: thin dotted;
+		}
+
+		&:hover,
+		&:active {
+			outline: 0;
+		}	
+
+		&::after {
+			content: "";
+			background: url("images/HeaderFlourishWhite.png") no-repeat;
+			background-size: contain;
+			position: absolute;
+			bottom: 6px;
+			left: 50%;
+			width: 200px;
+			margin-left: -100px;
+			height: 15px;
+
+			@media screen and (max-width: 26.875em) {
+				width: 200px;
+				margin-left: -100px;
+			}
+		}
+	}
+}
+
+.payment a {
+	text-decoration: none;
+	color: $color__payment-link;
+	font-weight: 700;
+
+	&:visited {
+		color: $color__payment-link;
+	}
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $color__payment-link;
+		text-decoration: underline;
+
+	}
+
+	&:focus {
+		outline: thin dotted;
+	}
+
+	&:hover,
+	&:active {
+		outline: 0;
+	}	
+}
+
+.payment-button {
+	background-color: $color__payment-button-bg;
+	width: 150px;
+	margin: 20px auto 0 auto;
+	border-radius: 5px;
+	padding: 5px 20px;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $color__payment-button-bg-hover;
+		transition: background-color .3s;
+	}
+
+	a {
+		color: $color__payment-button-link;
+		text-decoration: none;
+		font-weight: 100;
+
+		&:visited {
+			color: $color__payment-button-link;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $color__payment-button-link;
+			text-decoration: none;
+		}
+
+		&:focus {
+			outline: thin dotted;
+		}
+
+		&:hover,
+		&:active {
+			outline: 0;
+		}	
+	}	
+}
+
+
+
+.still-got-questions .faqs-button-container {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px 30px 20px;
+	border: 2px solid $color__still-got-quetions-faq-border;
+	position: relative;
+	width: 250px;
+	transition: background-color .3s;
+
+	&:hover {
+		background-color: $color__still-got-questions-faq-hover;
+		transition: background-color .3s;
+	}
+
+	a {
+		color: $still-got-questions-faq-font;
+		text-decoration: none;
+
+			&:visited {
+			color: $still-got-questions-faq-font;
+		}
+
+		&:hover,
+		&:focus,
+		&:active {
+			color: $still-got-questions-faq-font;
+		}
+
+		&:focus {
+			outline: thin dotted;
+		}
+
+		&:hover,
+		&:active {
+			outline: 0;
+		}	
+
+		&::after {
+			content: "";
+			background: url("images/HeaderFlourishBlack.png") no-repeat;
+			background-size: contain;
+			position: absolute;
+			bottom: 6px;
+			left: 50%;
+			width: 200px;
+			margin-left: -100px;
+			height: 15px;
+
+			@media screen and (max-width: 26.875em) {
+				width: 200px;
+				margin-left: -100px;
+			}
+		}
+	}
+}
+
+

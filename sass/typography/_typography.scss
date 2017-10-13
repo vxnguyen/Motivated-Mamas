@@ -1,0 +1,162 @@
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	@include font-size(.95);
+	line-height: 1.25;
+
+	@media (min-width: 43.75em) {
+		@include font-size(1);
+		line-height: 1.375;
+	}
+}
+
+.main-navigation {
+	@include font-size(1.1875);
+	font-family: $font__navigation;
+}
+
+.mama-identity {
+	color: $color__mama-identity-font;
+
+	.identity-bold {
+		font-family: $font__identity-bold;
+		@include font-size(1.2);
+
+	}
+}
+
+.testimonial .name {
+	font-weight: 700;
+}
+
+.enroll-button-section a {
+	font-family: $font__enroll-button;
+	@include font-size(1.75);
+}
+
+.learn-more-about-us a {
+	font-family: $font__learn-more-about-us-button;
+	@include font-size(1.75);
+}
+
+.not-for-everybody .flexbox-container {
+	color: $color__not-for-everybody-font;
+}
+
+.wheres-your-village h2 {
+	color: $color__wheres-your-village-header;
+}
+
+.ask-yourself .sub-title {
+	@include font-size(1.2);
+  	line-height: 1.11111111;
+
+  	@media (min-width: 43.75em) {
+  		@include font-size(1.3);
+		line-height: 1.22222222;
+	}
+}
+
+.faqs-button-container {
+	font-family: $font__faqs-button;
+	@include font-size(2);
+}
+
+.steps-5 h2, .steps-5 h3 {
+	color: $color__5-steps-header;
+}
+
+.step-box {
+	color: $color__5-steps-box-font;
+	font-family: $font__5-steps-box-font;
+	font-weight: 100;
+}
+
+.step h3 {
+	font-family: $font__5-steps-box-font;	
+	font-weight: 100;
+}
+
+.money-back-guarantee h2 {
+	font-family: $font__money-back-header;
+}
+
+.money-back-guarantee .header p {
+	font-weight: 700;
+
+	@include font-size(1.2);
+  	line-height: 1.11111111;
+
+  	@media (min-width: 43.75em) {
+  		@include font-size(1.3);
+		line-height: 1.22222222;
+	}
+}
+
+.money-back-guarantee .flexbox-container {
+	color: $color__money-back-font;
+}
+
+.about-us {
+	color: $color__about-us-font;
+
+	h3 {
+		font-family: $font__about-us-header;
+		font-weight: 100;
+		margin-top: 0;
+		margin-bottom: 30px;
+	}
+}
+
+.payment {
+	h3 {
+		color: $color__payment-font;
+		font-family: $font__payment-header;
+		font-weight: 100;
+	}
+
+	.flexbox-container {
+		color: $color__payment-font;
+	}
+}
+
+.bonus-box {
+	color: $color__bonus-box-font;
+}
+
+.still-got-questions .content {
+	font-weight: 700;
+}
+
+.refund-policy h3 {
+	font-family: "GoBold", sans-serif;
+	font-weight: 100;
+	color: #00ACB5;
+}
+
+section,
+.site-header {
+  opacity: 1;
+  transform: translateY(0);
+  -ms-transform: translateY(0);
+  -webkit-transform: translateY(0);
+  transition: transform .4s ease-in-out, opacity .4s ease-in-out;
+  -webkit-transition: -webkit-transform .4s ease-in-out, opacity .4s ease-in-out;
+}
+
+.wf-loading section,
+.wf-loading .site-header {
+  opacity: 0;
+  transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);
+}
+
+@import "headings";
+
+@import "copy";

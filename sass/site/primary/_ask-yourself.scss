@@ -1,0 +1,16 @@
+.ask-yourself {
+	padding: 60px 0;
+	background-color: $color__ask-yourself-bg;
+	color: $color__ask-yourself-font;
+	text-align: center;
+
+	h2,
+	p {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	p {
+		margin-top: 40px;
+	}
+}

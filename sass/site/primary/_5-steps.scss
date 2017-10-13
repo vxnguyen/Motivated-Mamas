@@ -1,0 +1,40 @@
+.steps-5 {
+	padding: 60px 0;
+	text-align: center;
+
+	.step5flourish {
+		max-width: 500px;
+		margin: 40px auto;
+	}
+
+	.header {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.step-box {
+		background-color: $color__5-steps-header;
+		display: inline-block;
+		padding: 5px 20px;
+		border-radius: 5px;
+	}
+
+	.step {
+		max-width: 800px;
+		margin: 0 auto 40px auto;
+		border: 4px solid $color__5-steps-header;
+		padding: 40px;
+
+		&::last-child {
+			margin: 0 auto;
+		}
+
+		ul {
+			margin: 0;
+
+			li {
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
