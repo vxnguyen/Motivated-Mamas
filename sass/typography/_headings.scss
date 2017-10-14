@@ -33,7 +33,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 }
 
-h2, .payment-success h1 {
+h2, .payment-success h1, .payment-error h1 {
 	@include font-size(1.625);
 	line-height: 1.15384615;
 	font-family: $font__header;

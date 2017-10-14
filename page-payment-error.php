@@ -15,7 +15,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main inner payment-success">
+		<main id="main" class="site-main inner payment-error">
 
 			<div class="content">
 				<?php

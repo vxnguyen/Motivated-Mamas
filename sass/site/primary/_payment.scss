@@ -39,8 +39,17 @@
 
 .payment-success {
 	.content {
-		margin-top: 100px;
-		margin-bottom: 100px;
+		margin-top: 150px;
+		margin-bottom: 150px;
+		text-align: center;
+	}
+}
+
+.payment-error {
+	.content {
+		margin-top: 150px;
+		margin-bottom: 150px;
+		text-align: center;
 	}
 }
 
