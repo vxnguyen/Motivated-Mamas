@@ -1164,6 +1164,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center; }
+    .how-and-why .flexbox-container .bullets {
+      max-width: 700px; }
     @media screen and (max-width: 60em) {
       .how-and-why .flexbox-container {
         flex-wrap: wrap; } }
