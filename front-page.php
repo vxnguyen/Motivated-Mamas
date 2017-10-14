@@ -365,7 +365,7 @@ get_header(); ?>
 					<?php endwhile; wp_reset_query(); ?>
 
 					<div class="learn-more-about-us">
-						<a href="">LEARN MORE ABOUT TOMIKA AND STEFANIE</a>
+						<a href="#about-us">LEARN MORE ABOUT TOMIKA AND STEFANIE</a>
 					</div>
 				</div>
 			</section>
@@ -446,6 +446,7 @@ get_header(); ?>
 			?>
 
 			<section class="about-us">
+				<a name="about-us"></a> 
 				<div class="inner">
 					<?php while( $the_query->have_posts() ) : $the_query->the_post(); ?>
 					<div class="flexbox-container">

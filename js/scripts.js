@@ -22,12 +22,6 @@
 			 $background.css("overflow", "hidden");
 		});
 
-
-		$openButtonLink.click(function() {
-			 $refundPolicy.fadeIn();
-			 $background.css("overflow", "hidden");
-		});
-
 		// Close Refund Policy Overlay
 		$closeButton.click(function() {
 			 $refundPolicy.fadeOut();
@@ -46,6 +40,15 @@
 			$(this).next(".answer").slideDown();
 			$(this).children(".faqs-arrow").toggleClass("rotate");
 		});
+
+		// Stripe
+		var stripe = Stripe('pk_test_fFbf4nipNoTns0Sj5QZZIj8p');
+
 	});
+
+
+
+
+
 
 ;})(jQuery);
