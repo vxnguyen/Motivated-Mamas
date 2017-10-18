@@ -143,7 +143,7 @@ get_header(); ?>
 			<section class="enroll-button-section">
 				<div class="inner">
 					<div class="enroll-button-container">
-						<a href="#payment">YES I WANT TO GET STARTED</a>
+						<a href="#payment">YES, I WANT TO GET STARTED!</a>
 					</div>
 				</div>
 			</section>
@@ -331,7 +331,7 @@ get_header(); ?>
 			<section class="enroll-button-section">
 				<div class="inner">
 					<div class="enroll-button-container">
-						<a href="#payment">YES I WANT TO GET STARTED</a>
+						<a href="#payment">YES, I WANT TO GET STARTED!</a>
 					</div>
 				</div>
 			</section>
@@ -374,7 +374,7 @@ get_header(); ?>
 				<div class="opacity-layer">
 					<div class="inner">
 						<div class="enroll-button-container">
-							<a href="#payment">YES I WANT TO GET STARTED</a>
+							<a href="#payment">YES, I WANT TO GET STARTED!</a>
 						</div>
 					</div>
 				</div>
@@ -570,6 +570,36 @@ get_header(); ?>
 										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/BonusFlourish.png">
 									</div>
 								</div>
+
+								<div>
+									<div>
+										<img class="box-number" src="<?php bloginfo('stylesheet_directory'); ?>/images/BonusBox4.png">
+									</div>
+									<div class="bonus-box">
+										<?php the_field('bonus_4_content'); ?>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/BonusFlourish.png">
+									</div>
+								</div>
+
+								<div>
+									<div>
+										<img class="box-number" src="<?php bloginfo('stylesheet_directory'); ?>/images/BonusBox5.png">
+									</div>
+									<div class="bonus-box">
+										<?php the_field('bonus_5_content'); ?>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/BonusFlourish.png">
+									</div>
+								</div>
+
+								<div>
+									<div>
+										<img class="box-number" src="<?php bloginfo('stylesheet_directory'); ?>/images/BonusBox6.png">
+									</div>
+									<div class="bonus-box">
+										<?php the_field('bonus_6_content'); ?>
+										<img src="<?php bloginfo('stylesheet_directory'); ?>/images/BonusFlourish.png">
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -602,7 +632,7 @@ get_header(); ?>
 				<div class="opacity-layer">
 					<div class="inner">
 						<div class="enroll-button-container">
-							<a href="#payment">YES I WANT TO GET STARTED</a>
+							<a href="#payment">YES, I WANT TO GET STARTED!</a>
 						</div>
 					</div>
 				</div>

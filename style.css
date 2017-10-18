@@ -1061,6 +1061,9 @@ body {
         background-size: contain;
         height: 20px;
         width: 20px; }
+      .mama-identity ul li .identity-bold {
+        display: block;
+        margin-top: 25px; }
 
 .theres-the {
   max-width: 200px; }
@@ -1630,6 +1633,14 @@ body {
   font-size: 17.6px;
   font-size: 1.1rem; }
 
+.saving {
+  background-color: #FFDB77;
+  color: #222222;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 5px; }
+
 /*--------------------------------------------------------------
 ## Bonus
 --------------------------------------------------------------*/
@@ -1642,10 +1653,11 @@ body {
   padding: 60px 0; }
   .bonus .flexbox-container {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin-top: 40px;
     justify-content: center; }
-    .bonus .flexbox-container > div:nth-child(2) {
+    .bonus .flexbox-container > div:nth-child(2), .bonus .flexbox-container > div:nth-child(5) {
       margin-right: 30px;
       margin-left: 30px; }
     @media screen and (max-width: 62.5em) {
@@ -1660,7 +1672,8 @@ body {
   height: 300px;
   border-radius: 10px;
   position: relative;
-  width: 300px; }
+  width: 300px;
+  margin-bottom: 50px; }
   .bonus-box > img {
     width: 200px;
     position: absolute;
@@ -1787,6 +1800,9 @@ body {
   .faqs .container {
     max-width: 800px;
     margin: 0 auto; }
+    @media screen and (max-width: 43.75em) {
+      .faqs .container {
+        margin-right: 30px; } }
   .faqs .answer {
     display: none; }
   .faqs .question {
