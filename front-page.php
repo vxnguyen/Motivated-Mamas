@@ -83,6 +83,16 @@ get_header(); ?>
 						</div>
 
 					<?php endwhile; wp_reset_query(); ?>
+
+					<div class="logos-flexbox-container">
+						<div class="logo">
+							<a target="_blank" href="https://www.huffingtonpost.com/entry/for-single-mamas-from-welfare-queens-to-the-american_us_591858fbe4b00ccaae9ea3f7"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/huffington-post-logo.png"></a>
+						</div>
+
+						<div class="logo">
+							<a target="_blank" href="http://www.wnyc.org/story/other-f-word-politics-being-fatt/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/WNYC-Logo.png"></a>
+						</div>
+					</div>
 				</div>
 			</section>
 

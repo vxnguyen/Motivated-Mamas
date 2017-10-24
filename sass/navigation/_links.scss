@@ -50,7 +50,8 @@ a {
 	}
 }
 
-.main-navigation .button a {
+.main-navigation .button a,
+.newsletter-button {
 	color: $color__button-nav-font;
 
 	&:visited {
@@ -336,7 +337,8 @@ a {
 	}
 }
 
-.payment a {
+.payment a,
+.newsletter-button a {
 	text-decoration: none;
 	color: $color__payment-link;
 	font-weight: 700;
@@ -363,7 +365,8 @@ a {
 	}	
 }
 
-.payment-button {
+.payment-button,
+.newsletter-button {
 	background-color: $color__payment-button-bg;
 	width: 150px;
 	margin: 20px auto 0 auto;

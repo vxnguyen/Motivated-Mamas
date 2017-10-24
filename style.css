@@ -636,15 +636,23 @@ a {
   .main-navigation a:hover, .main-navigation a:active {
     outline: 0; }
 
-.main-navigation .button a {
+.main-navigation .button a,
+.newsletter-button {
   color: #FFFFFF; }
-  .main-navigation .button a:visited {
+  .main-navigation .button a:visited,
+  .newsletter-button:visited {
     color: #FFFFFF; }
-  .main-navigation .button a:hover, .main-navigation .button a:focus, .main-navigation .button a:active {
+  .main-navigation .button a:hover, .main-navigation .button a:focus, .main-navigation .button a:active,
+  .newsletter-button:hover,
+  .newsletter-button:focus,
+  .newsletter-button:active {
     color: #FFFFFF; }
-  .main-navigation .button a:focus {
+  .main-navigation .button a:focus,
+  .newsletter-button:focus {
     outline: thin dotted; }
-  .main-navigation .button a:hover, .main-navigation .button a:active {
+  .main-navigation .button a:hover, .main-navigation .button a:active,
+  .newsletter-button:hover,
+  .newsletter-button:active {
     outline: 0; }
 
 .enroll-button-container {
@@ -815,42 +823,60 @@ a {
           width: 200px;
           margin-left: -100px; } }
 
-.payment a {
+.payment a,
+.newsletter-button a {
   text-decoration: none;
   color: #222222;
   font-weight: 700; }
-  .payment a:visited {
+  .payment a:visited,
+  .newsletter-button a:visited {
     color: #222222; }
-  .payment a:hover, .payment a:focus, .payment a:active {
+  .payment a:hover, .payment a:focus, .payment a:active,
+  .newsletter-button a:hover,
+  .newsletter-button a:focus,
+  .newsletter-button a:active {
     color: #222222;
     text-decoration: underline; }
-  .payment a:focus {
+  .payment a:focus,
+  .newsletter-button a:focus {
     outline: thin dotted; }
-  .payment a:hover, .payment a:active {
+  .payment a:hover, .payment a:active,
+  .newsletter-button a:hover,
+  .newsletter-button a:active {
     outline: 0; }
 
-.payment-button {
+.payment-button,
+.newsletter-button {
   background-color: #4AC0F2;
   width: 150px;
   margin: 20px auto 0 auto;
   border-radius: 5px;
   padding: 5px 20px;
   transition: background-color .3s; }
-  .payment-button:hover {
+  .payment-button:hover,
+  .newsletter-button:hover {
     background-color: #369DC8;
     transition: background-color .3s; }
-  .payment-button a {
+  .payment-button a,
+  .newsletter-button a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 100; }
-    .payment-button a:visited {
+    .payment-button a:visited,
+    .newsletter-button a:visited {
       color: #FFFFFF; }
-    .payment-button a:hover, .payment-button a:focus, .payment-button a:active {
+    .payment-button a:hover, .payment-button a:focus, .payment-button a:active,
+    .newsletter-button a:hover,
+    .newsletter-button a:focus,
+    .newsletter-button a:active {
       color: #FFFFFF;
       text-decoration: none; }
-    .payment-button a:focus {
+    .payment-button a:focus,
+    .newsletter-button a:focus {
       outline: thin dotted; }
-    .payment-button a:hover, .payment-button a:active {
+    .payment-button a:hover, .payment-button a:active,
+    .newsletter-button a:hover,
+    .newsletter-button a:active {
       outline: 0; }
 
 .still-got-questions .faqs-button-container {
@@ -1130,6 +1156,14 @@ body {
       position: absolute;
       top: 1px;
       left: -30px; }
+
+.logos-flexbox-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 40px; }
+  .logos-flexbox-container .logo {
+    max-width: 180px; }
 
 /*--------------------------------------------------------------
 ## Testimonial
@@ -1463,7 +1497,8 @@ body {
     .steps-5 .step::last-child {
       margin: 0 auto; }
     .steps-5 .step ul {
-      margin: 0; }
+      margin: 0;
+      padding: 0; }
       .steps-5 .step ul li {
         margin-bottom: 10px;
         list-style-position: inside; }
@@ -1785,6 +1820,52 @@ body {
 
 #refund-open-link {
   cursor: pointer; }
+
+.newsletter-signup-container {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none; }
+  .newsletter-signup-container h2 {
+    color: #369DC8; }
+  .newsletter-signup-container .newsletter-signup {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center; }
+  .newsletter-signup-container .close-button {
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    margin-bottom: 15px; }
+  .newsletter-signup-container .inner {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto; }
+    @media screen and (max-width: 50em) {
+      .newsletter-signup-container .inner {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        overflow-y: scroll;
+        border-radius: 0;
+        display: flex;
+        align-items: center; } }
+  .newsletter-signup-container .container {
+    padding-bottom: 30px; }
+  .newsletter-signup-container .newsletter-button {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20.8px;
+    font-size: 1.3rem; }
 
 /*--------------------------------------------------------------
 ## FAQs

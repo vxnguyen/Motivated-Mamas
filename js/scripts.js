@@ -14,7 +14,9 @@
 		var $openButton = $("#refund-open");
 		var $openButtonLink = $("#refund-open-link");
 		var $refundPolicy = $(".refund-policy-container");
-		var $background = $("body")
+		var $background = $("body");
+		var $newsletterButton = $("#newsletter-close");
+		var $newsletter = $(".newsletter-signup-container");
 
 		// Open Refund Policy Overlay
 		$openButton.click(function() {
@@ -22,10 +24,24 @@
 			 $background.css("overflow", "hidden");
 		});
 
+		// open newsletter signup modal
+		setTimeout(
+		  function() 
+		  {
+		     $newsletter.fadeIn();
+			 $background.css("overflow", "hidden");
+		  }, 7000);
+
 		// Close Refund Policy Overlay
 		$closeButton.click(function() {
 			 $refundPolicy.fadeOut();
 			 $background.css("overflow", "scroll");
+		});
+
+		// close newsletter signup modal
+		$newsletterButton.click(function() {
+			$newsletter.fadeOut();
+			$background.css("overflow", "scroll");
 		});
 
 		var $question = $(".question");

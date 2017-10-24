@@ -41,6 +41,26 @@
 			</section>
 		</div>
 
+		<div class="newsletter-signup-container">
+			<section class="newsletter-signup">
+				<div class="inner">
+					<div class="container">
+						<div class="close-button" id="newsletter-close">X</div>
+						<h2>CLICK JOIN NOW BELOW TO RECEIVE YOUR FREE GIFT</h2>
+						<h3>WE HELP MOMS WIN!<br />IT TAKES A VILLAGE... JOIN YOURS HERE!</h3>
+						<div class="newsletter-huffington-post">
+							<p>"Single parents – specifically moms, who head up 83 percent of single parent households – need each other now more than ever. By coming together regularly and capitalizing on each other’s expertise, skill sets, hacks and best practices, we work together to problem solve in areas we most need help in, on extremely tight schedules and, notoriously, little sleep or support. We help moms win on anything from successfully navigating the child support system to repairing credit on the way to home-ownership."</p>
+							<p>-The Huffington Post</p>
+						</div>
+
+						<div>
+							<a class="newsletter-button" href="http://motivatedmamas.us15.list-manage2.com/subscribe?u=2057d8b2da481da540df95244&id=4f28ed035f">JOIN NOW</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+
 	<footer id="colophon" class="site-footer">
 		<div class="site-info inner">
 			<div class="refund-policy-button">
