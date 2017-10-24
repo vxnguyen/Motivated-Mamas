@@ -84,6 +84,8 @@ get_header(); ?>
 
 					<?php endwhile; wp_reset_query(); ?>
 
+					<div class="logos-title"><h2>AS FEATURED BY</h2></div>
+
 					<div class="logos-flexbox-container">
 						<div class="logo">
 							<a target="_blank" href="https://www.huffingtonpost.com/entry/for-single-mamas-from-welfare-queens-to-the-american_us_591858fbe4b00ccaae9ea3f7"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/huffington-post-logo.png"></a>
