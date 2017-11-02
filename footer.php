@@ -46,7 +46,7 @@
 				<div class="inner">
 					<div class="container">
 						<div class="close-button" id="newsletter-close">X</div>
-						<h2>CLICK JOIN NOW BELOW TO RECEIVE YOUR FREE GIFT</h2>
+						<h2>JOIN NOW TO RECEIVE YOUR FREE GIFT</h2>
 						<h3>WE HELP MOMS WIN!<br />IT TAKES A VILLAGE... JOIN YOURS HERE!</h3>
 						<div class="newsletter-huffington-post">
 							<p>"Single parents – specifically moms, who head up 83 percent of single parent households – need each other now more than ever. By coming together regularly and capitalizing on each other’s expertise, skill sets, hacks and best practices, we work together to problem solve in areas we most need help in, on extremely tight schedules and, notoriously, little sleep or support. We help moms win on anything from successfully navigating the child support system to repairing credit on the way to home-ownership."</p>
