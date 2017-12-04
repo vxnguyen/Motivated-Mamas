@@ -879,6 +879,10 @@ a {
     .newsletter-button a:active {
       outline: 0; }
 
+.payment-button {
+  text-decoration: none !important;
+  color: white !important; }
+
 .still-got-questions .faqs-button-container {
   display: inline-block;
   margin-top: 20px;

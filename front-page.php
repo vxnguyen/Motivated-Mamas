@@ -511,11 +511,6 @@ get_header(); ?>
 
 						<div class="flexbox-container">
 							<div>
-								<h3>MONTHLY PAYMENTS</h3>
-								<?php the_field('monthly'); ?>
-							</div>
-
-							<div>
 								<h3>PAID IN FULL</h3>
 								<?php the_field('full'); ?>
 							</div>
