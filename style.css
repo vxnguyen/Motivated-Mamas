@@ -1619,11 +1619,6 @@ body {
       padding: 40px;
       border-radius: 10px;
       margin-left: 50px; }
-    @media screen and (max-width: 62.5em) {
-      .about-us .flexbox-container {
-        flex-wrap: wrap; }
-        .about-us .flexbox-container > div:first-child {
-          margin-bottom: 40px; } }
 
 /*--------------------------------------------------------------
 ## About Us

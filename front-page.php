@@ -474,15 +474,6 @@ get_header(); ?>
 								<img src="<?php bloginfo('stylesheet_directory'); ?>/images/AboutUsFlourish.png">
 							</div>
 						</div>
-
-						<div>
-							<h3><?php the_field('header_2'); ?></h3>
-							<?php echo wp_get_attachment_image( get_field('image_2'), 'full'); ?>
-							<p><?php the_field('content_2'); ?></p>
-							<div>
-								<img src="<?php bloginfo('stylesheet_directory'); ?>/images/AboutUsFlourish.png">
-							</div>
-						</div>
 					</div>
 					<?php endwhile; wp_reset_query(); ?>
 				</div>
