@@ -93,6 +93,15 @@
 	.logo {
 		max-width: 180px;
 	}
+
+	@media screen and (max-width: 46.875em) {
+		flex-wrap: wrap;
+
+		.logo {
+			margin-bottom: 20px;
+			padding: 0 20px 0 20px;
+		}
+	}
 }
 
 .logos-title {

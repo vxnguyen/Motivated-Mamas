@@ -54,7 +54,7 @@
 						</div>
 
 						<div>
-							<a class="newsletter-button" href="http://motivatedmamas.us15.list-manage2.com/subscribe?u=2057d8b2da481da540df95244&id=4f28ed035f">JOIN NOW</a>
+							<a class="newsletter-button" href="https://singleparentswhotravel.us16.list-manage.com/subscribe?u=3d361812dd7168358a51d848e&id=bf0a8097fb">JOIN NOW</a>
 						</div>
 					</div>
 				</div>

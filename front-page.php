@@ -94,6 +94,10 @@ get_header(); ?>
 						<div class="logo">
 							<a target="_blank" href="http://www.wnyc.org/story/other-f-word-politics-being-fatt/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/WNYC-Logo.png"></a>
 						</div>
+
+						<div class="logo">
+							<a target="_blank" href="https://onmogul.com/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/MogulLogo.jpg"></a>
+						</div>
 					</div>
 				</div>
 			</section>
