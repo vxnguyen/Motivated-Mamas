@@ -381,7 +381,7 @@ get_header(); ?>
 					<?php endwhile; wp_reset_query(); ?>
 
 					<div class="learn-more-about-us">
-						<a href="#about-us">LEARN MORE ABOUT TOMIKA AND STEFANIE</a>
+						<a href="#about-us">LEARN MORE ABOUT TOMIKA</a>
 					</div>
 				</div>
 			</section>
