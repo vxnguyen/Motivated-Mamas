@@ -15,6 +15,10 @@
 			bottom: 60px;
 		}
 
+		form input {
+			width: 150px;
+		}
+
 		> div {
 			background-color: $color__payment-box-bg;
 			border-radius: 15px;
