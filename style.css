@@ -1038,8 +1038,8 @@ body {
     .landing .inner > div {
       position: absolute;
       max-width: 400px;
-      top: 20%;
-      right: 5%; }
+      top: 30%;
+      left: 5%; }
       @media screen and (max-width: 68.125em) {
         .landing .inner > div {
           position: relative;
