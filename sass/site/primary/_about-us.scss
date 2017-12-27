@@ -1,6 +1,18 @@
 .about-us {
 	padding: 60px 0;
 
+	a {
+		color: white;
+
+		&:visited {
+			color: white;
+		}
+
+		&:hover {
+			color: white;
+		}
+	}
+
 	.flexbox-container {
 		text-align: center;
 		display: flex;

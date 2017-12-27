@@ -292,7 +292,7 @@ textarea {
   color: #FFFFFF; }
 
 .wheres-your-village h2 {
-  color: #369DC8; }
+  color: #9e8ab8; }
 
 .ask-yourself .sub-title {
   font-size: 19.2px;
@@ -310,7 +310,7 @@ textarea {
   font-size: 2rem; }
 
 .steps-5 h2, .steps-5 h3 {
-  color: #EF8249; }
+  color: #b13b2d; }
 
 .step-box {
   color: #FFFFFF;
@@ -362,7 +362,7 @@ textarea {
 .refund-policy h3 {
   font-family: "GoBold", sans-serif;
   font-weight: 100;
-  color: #00ACB5; }
+  color: #9e8ab8; }
 
 section,
 .site-header {
@@ -433,7 +433,7 @@ h2, .payment-success h1, .payment-error h1 {
 
 .group-for-you h2,
 .how-and-why h2 {
-  color: #369DC8; }
+  color: #9e8ab8; }
 
 .not-for-everybody h3 {
   font-family: "GoBold", sans-serif;
@@ -697,7 +697,7 @@ a {
   position: relative;
   transition: background-color .3s; }
   .enroll-image .enroll-button-container:hover {
-    background-color: #369DC8;
+    background-color: #9e8ab8;
     transition: background-color .3s; }
   .enroll-image .enroll-button-container a {
     color: #FFFFFF;
@@ -732,7 +732,7 @@ a {
   position: relative;
   transition: background-color .3s; }
   .enroll-image2 .enroll-button-container:hover {
-    background-color: #369DC8;
+    background-color: #9e8ab8;
     transition: background-color .3s; }
   .enroll-image2 .enroll-button-container a {
     color: #FFFFFF;
@@ -761,7 +761,7 @@ a {
           margin-left: -100px; } }
 
 .learn-more-about-us {
-  border: 2px solid #369DC8;
+  border: 2px solid #9e8ab8;
   display: block;
   text-align: center;
   max-width: 350px;
@@ -769,16 +769,16 @@ a {
   padding: 5px 20px;
   transition: background-color .3s; }
   .learn-more-about-us:hover {
-    background-color: #0F75A0;
-    border: 2px solid #0F75A0;
+    background-color: #8e74b0;
+    border: 2px solid #8e74b0;
     transition: background-color .3s; }
     .learn-more-about-us:hover a {
       color: #FFFFFF; }
   .learn-more-about-us a {
-    color: #369DC8;
+    color: #9e8ab8;
     text-decoration: none; }
     .learn-more-about-us a:visited {
-      color: #369DC8; }
+      color: #9e8ab8; }
     .learn-more-about-us a:hover, .learn-more-about-us a:focus, .learn-more-about-us a:active {
       color: #FFFFFF; }
     .learn-more-about-us a:focus {
@@ -795,7 +795,7 @@ a {
   width: 250px;
   transition: background-color .3s; }
   .faqs-button-container:hover {
-    background-color: #0F75A0;
+    background-color: #8e74b0;
     transition: background-color .3s; }
   .faqs-button-container a {
     color: #FFFFFF;
@@ -847,7 +847,7 @@ a {
 
 .payment-button,
 .newsletter-button {
-  background-color: #4AC0F2;
+  background-color: #9e8ab8;
   width: 150px;
   margin: 20px auto 0 auto;
   border-radius: 5px;
@@ -855,7 +855,7 @@ a {
   transition: background-color .3s; }
   .payment-button:hover,
   .newsletter-button:hover {
-    background-color: #369DC8;
+    background-color: #9e8ab8;
     transition: background-color .3s; }
   .payment-button a,
   .newsletter-button a {
@@ -939,12 +939,12 @@ a {
       .main-navigation ul li a:hover {
         border-bottom: #222222 3px solid; }
 .main-navigation .button {
-  background-color: #369DC8;
+  background-color: #9e8ab8;
   padding: 5px 15px;
   border-radius: 5px;
   transition: background-color .3s; }
   .main-navigation .button:hover {
-    background-color: #0F75A0;
+    background-color: #8e74b0;
     transition: background-color .3s; }
   .main-navigation .button a:hover {
     border-bottom: none; }
@@ -1008,7 +1008,7 @@ body {
   padding: 20px 0 20px 0;
   background-color: #FFFFFF; }
   .site-header .custom-logo {
-    max-width: 200px; }
+    max-width: 250px; }
 
 .site-branding {
   display: flex;
@@ -1059,7 +1059,7 @@ body {
 ## Mama Identity
 --------------------------------------------------------------*/
 .mama-identity {
-  background-color: #EF8249;
+  background-color: #b13b2d;
   padding: 60px 0; }
   .mama-identity .inner > div {
     display: flex;
@@ -1185,7 +1185,7 @@ body {
 --------------------------------------------------------------*/
 .testimonial {
   padding: 60px 0;
-  background-color: #EF8249;
+  background-color: #b13b2d;
   color: #FFFFFF; }
   .testimonial .flexbox-container {
     display: flex;
@@ -1205,7 +1205,7 @@ body {
           text-align: center; } }
 
 .testimonial-3 {
-  background-color: #369DC8; }
+  background-color: #9e8ab8; }
 
 /*--------------------------------------------------------------
 ## How and Why
@@ -1366,7 +1366,7 @@ body {
     margin-left: -50px; }
     .not-for-everybody .flexbox-container > div {
       max-width: 500px;
-      background-color: #369DC8;
+      background-color: #9e8ab8;
       padding: 40px;
       border-radius: 10px;
       margin-left: 50px; }
@@ -1382,7 +1382,7 @@ body {
 .how-we-became {
   padding: 60px 0; }
   .how-we-became h2 {
-    color: #369DC8;
+    color: #9e8ab8;
     text-align: center;
     margin-bottom: 70px; }
   .how-we-became .flexbox-container {
@@ -1477,7 +1477,7 @@ body {
 --------------------------------------------------------------*/
 .ask-yourself {
   padding: 60px 0;
-  background-color: #369DC8;
+  background-color: #9e8ab8;
   color: #FFFFFF;
   text-align: center; }
   .ask-yourself h2,
@@ -1500,14 +1500,14 @@ body {
     max-width: 800px;
     margin: 0 auto; }
   .steps-5 .step-box {
-    background-color: #EF8249;
+    background-color: #b13b2d;
     display: inline-block;
     padding: 5px 20px;
     border-radius: 5px; }
   .steps-5 .step {
     max-width: 800px;
     margin: 0 auto 40px auto;
-    border: 4px solid #EF8249;
+    border: 4px solid #b13b2d;
     padding: 40px; }
     .steps-5 .step::last-child {
       margin: 0 auto; }
@@ -1593,7 +1593,7 @@ body {
     margin-left: -50px; }
     .money-back-guarantee .flexbox-container > div {
       max-width: 500px;
-      background-color: #EF8249;
+      background-color: #b13b2d;
       padding: 40px;
       border-radius: 10px;
       margin-left: 50px; }
@@ -1608,6 +1608,12 @@ body {
 --------------------------------------------------------------*/
 .about-us {
   padding: 60px 0; }
+  .about-us a {
+    color: white; }
+    .about-us a:visited {
+      color: white; }
+    .about-us a:hover {
+      color: white; }
   .about-us .flexbox-container {
     text-align: center;
     display: flex;
@@ -1615,7 +1621,7 @@ body {
     margin-left: -50px; }
     .about-us .flexbox-container > div {
       max-width: 500px;
-      background-color: #369DC8;
+      background-color: #9e8ab8;
       padding: 40px;
       border-radius: 10px;
       margin-left: 50px; }
@@ -1654,7 +1660,7 @@ body {
       width: 150px;
       cursor: pointer; }
     .payment .flexbox-container > div {
-      background-color: #EF8249;
+      background-color: #9e8ab8;
       border-radius: 15px;
       width: 300px;
       padding: 20px; }
@@ -1715,7 +1721,7 @@ body {
           margin-bottom: 40px; } }
 
 .bonus-box {
-  background-color: #369DC8;
+  background-color: #9e8ab8;
   padding: 20px;
   height: 300px;
   border-radius: 10px;
@@ -1843,7 +1849,7 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
   display: none; }
   .newsletter-signup-container h2 {
-    color: #369DC8; }
+    color: #9e8ab8; }
   .newsletter-signup-container .newsletter-signup {
     width: 100%;
     height: 100%;
